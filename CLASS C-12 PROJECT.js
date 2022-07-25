@@ -27,7 +27,7 @@ function draw(){
   background("white")
   //make trex jump
   if(keyDown('space') && trex.y >=150){
-    trex.velocityY= -6
+    trex.velocityY= -5
   }
 
 console.log(trex.y)
